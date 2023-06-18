@@ -1,11 +1,11 @@
-About r-tidycmprsk
-==================
+About r-tidycmprsk-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tidycmprsk-feedstock/blob/main/LICENSE.txt)
 
 Home: https://mskcc-epi-bio.github.io/tidycmprsk/
 
 Package license: AGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tidycmprsk-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides an intuitive interface for working with the competing risk endpoints. The package wraps the 'cmprsk' package, and exports functions for univariate cumulative incidence estimates and competing risk regression. Methods follow those introduced in Fine and Gray (1999) <doi:10.1002/sim.7501>.
 
