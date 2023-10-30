@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tidycmprsk_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tidycmprsk/tidycmprsk_{{ version }}.tar.gz
-  sha256: 38687a9b15fca3c0dad9702a7b9f1612e0c4e6414aecff543ce0f7d35994acea
+  sha256: 146dae8f7e00505f831faa1e589703220b50f7ed59b60ad81f0e5b5c29d84395
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
