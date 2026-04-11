@@ -9,6 +9,8 @@ Package license: AGPL-3.0-or-later
 
 Summary: Provides an intuitive interface for working with the competing risk endpoints. The package wraps the 'cmprsk' package, and exports functions for univariate cumulative incidence estimates and competing risk regression. Methods follow those introduced in Fine and Gray (1999) <doi:10.1002/sim.7501>.
 
+Development: https://github.com/MSKCC-Epi-Bio/tidycmprsk
+
 Current build status
 ====================
 
